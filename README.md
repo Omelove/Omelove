@@ -5,4 +5,4 @@
 - I'm new to web developing.
 - 🌱 I’m currently learning **HTML & CSS.**
 
-<p align="center"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omelove" alt="Trophy"/></a></p>
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=omelove&show_icons=true&locale=en" alt="GitHub Stats"/></p>
