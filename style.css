@@ -8,3 +8,14 @@ section#about{
     background: rgb(34,193,195);
     background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
+section#about li{
+    font-size: 22px;
+}
+
+.slider{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1584009577996-0227b2358356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}

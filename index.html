@@ -7,19 +7,18 @@
         <link rel="stylesheet" href="style.css">
         <!--Framework-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script-->
 
         <!--Icons-->
-        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
         <title>Omelove</title>
     </head>
     <body class="text-white">
         <nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark p-2 border-warning border-bottom">
             <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="rounded rounded-circle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAACNjY1hYWHy8vLv7+/5+fn19fWysrJra2uDg4Pi4uJTU1Pb29ucnJzR0dHBwcEiIiKmpqZLS0uJiYmsrKx2dna6urpXV1ff3986OjpGRkYnJyfo6OhjY2NBQUEVFRV1dXUyMjLJyckLCwuVlZUbGxufn58tLS23NdvHAAAGRklEQVR4nO2di3aqMBBFwQcqrWBbC/aBFqtt//8Lr9rq9QEUkjk5Yxf7C9gLyCSTycTzWlrqMcjeh+swGc3n3S3zPIyGcZ/9VEJkaWd25xey6n4+sR/PkmCSfBTLHVhM2A9pQTr7xe6b54z9oGZkYS29He/shzVgXO/17YnZz9uUrNvIb8OVDaudpn6+/8p+5iY8fTUX9P0R+7Hrc2/ityEZppObAfvpazAyFPxhOVU+6AQLO8Etb1HA1iinVzI7a0rEFimj9yYjuHmPSr/VpZTghg5bpojGYb4SheHDIM5X0mULnRMLC24iJFvplEBc0Pfv2VInWEb6Ym7YVke8IwT9Z7bWEUKh/pxHtteBR4yg77PFDqAE1Qw2pium31mx1X5YwQx9HbnGFCeoZGbzAjT0e2y7DTdIQX/I1tuwhhrO2XobjHJr9WHroT9S3+fvTuGC4Tf8mdst2JC+TEQsDE9YsA3HaEP6UIP+DfkxH7K4P4GdOwWtfY9gT77hguw1In6gYae/J3jDkGsY4Q1zrmGDmhJTyDsYzapKjJhxDZ/xhg9cw1e8IXliihf0X6iCAweG3K+058CQO9L0HRhy46ELQ+4i34Uhd9bmwnD95w25WW8XhtwVsAtDbhbDRTzkVki7mNNwizHh+WDf/6IKep5YwWUp5MUTemvNZwd8FytgdsEJPovBTnnncEP2uS/putlLyILeJ1rwlm0Iz3lP2YbwfYuUbZihDfl1wmhDth88JUwfaKTPkVzATWHsAG8+KTgEPcQasvU8xFmZY7h7Ft9gMzUaTiJiAyJ7+bsFXDFEn9LAk21LtiDutMwe+qxtjjakV7LD9/HZiSh8vpR9Hhif1SdX0zjYmWFHRPw7ZB98wu/MkOv2PO+3Vl7W0JsrwLP69HiYoA3HbEP4rI3erAZ9rktBJgo8baP/hvBCb/pHio6I9F2LLdB0IvvM0w7k8kJDIspDHsfnpzB+yFGGevpFPmAE6dOZIyAVGewijFPkuw6o670rvH3xxc8EXyC7jGKfGy1CtuxEwWTtAtGcFDvBVoxkyFCwoihAcmqjtNuunKDOj9TzpmKGCkPFDrndYLZJKVJ9XOj9WkqRag+pa0J6gkxZO/v4QRUyAYPfNqkCkdQiW6ISiZdI34qpRuAlKp3P7LEfTlVkSKuwLjfVuG46wXYRxT4DVAO7lfBV3MZi1c1UUwKxFJvyDAVV3XUwP0ZDbyBYF9Nf8U15KPyP6XiqfDZzhOmfeD2GpjuK12NompNqDRXRGraG+mkNW0P9tIatoX5aw9ZQP3/e0HR9qD7dfcC03wn7EFd9jC+EUJ/R32N8p6zWGoxzzPOld+xHr4lFG77ryHnn5oJXsfVke++M/l/RupmLzrLE/wicglKtGIi0VFL8L0q1G7ql98IoJhU8iZhoO4qw4V64GW1X1353H9EB81ZBm69vsnvQsSf/7pN/u6MXd7DngD8S6puM4YfxdySkitqsg290vWcVuv9cU9S/V8by3uXyOJM7d9CE0FWQHOPvdCxj7uKPHKOvjq1mgXYcu/79LnlBOt44uEauBriJuYOLAGuC6eEG7sTaEPllcp87wFzyIBw64J2EDJBMBQQ6RphzbsXKUZ/YKqUIBQ5dQ8wpIl+qnhhRhEDcALdct8a6raK2IHGJ5baqfkFLRZ1R4hyLpnU5+9lrYtyIV76rDgrDERXXwkseo4k49s4DaUxmNxon2+UYFQBc00s0XC7qnXGfY5z5HxiX/rjFJm+jfVa65dlumcjJbjfBuu++5tXhFoEqKvjVcVaI7C4GehcYS6n2n1onqILdluIVW6YI0d6KAW9HrYwH6SbK2lYagNIwVXl96Zz+D3pCI6xXVpCz1XbMkG3M4zu2Hr49rWWRszUOurQP3BRCFZO46bOfsdZUXXdVp5SSjIXbitOx63T4i/saxSeX3+qMU55442rMSXiFtINPBxWYa/I9Je/Y6epMQ/v5foQqhH6N1FzhMUZs9oe6ziN48VTyTb6FKrslP0VWLRMPPEfK3t4xwSSxW3185KmKK54q6aeh2Qf7lg+VHukqoBc/hk3mrst59K5m3GxAPx52ul+VmciPRRhNFJz9saOXxenwMZom+Wg0787no1EeTteP6WTcv5oWAy1M/gFGMnjpqYxUGwAAAABJRU5ErkJggg==" alt="Logo" width="50px" height="50px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +28,7 @@
                             <a class="nav-link p-2 px-4 rounded active" href="#intro"><i class="bi bi-house-fill"></i> Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-2 px-4 rounded" href="#about"><i class="bi bi-info-square-fill"></i> About</a>
+                            <a class="nav-link p-2 px-4 rounded activehref="#about"><i class="bi bi-info-square-fill"></i> About</a>
                         </li>
                     </ul>
                 </div>
@@ -37,13 +36,38 @@
         </nav>
 
         <section id="intro">
-            <h1 class="text-center">Hello World</h1>
+            <div class="slider d-flex justify-content-center align-items-center p-0 m-0">
+                <h1 class="text-center">Hello World!<br>Please to meet you!</h1>
+            </div>
         </section>
 
-        <section id="about"></section>
+        <section id="about">
+            <div class="container-fluid">
+                <h1 class="text-center text-decoration-underline" style="padding-top: 60px;">About Me</h1>
+                <div class="container border">
+                    <h2>Bio</h2>
+                    <ul>
+                        <li>My name is Omega and I'm a huge fan of mobile games like Mobile Legends Bang Bang and Clash of Clans.</li>
+                        <li>I love to learn new things from YouTube, and I'm always exploring different topics on the platform.</li>
+                        <li>Recently, I've become interested in web development and I'm excited to start learning more about it.</li>
+                        <li>In my free time, I can be found hanging out with friends or exploring new hobbies and interests.</li>
+                        <li>I'm always up for a good adventure and I'm grateful for all of the amazing experiences life has brought me so far.</li>
+                        <li>Fun Fact: my mood when I heard exam <i class="bi bi-emoji-dizzy"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
         <footer class="bg-dark text-center m-0 pb-1">
-            <p class="p-2"><i class="bi bi-c-circle"></i> 2023 Omelove<br><hr><a class="text-white" target="_blank" href="https://github.com/Omelove"><i class="bi bi-github"></i> GitHub</a></p>
+            <div class="container-fluid d-flex justify-content-around align-items-center">
+                <p class="p-2 m-0"><i class="bi bi-c-circle"></i> 2023 Omelove</p><p class="m-0"><a class="text-white" target="_blank" href="https://github.com/Omelove"><i class="bi bi-github"></i> GitHub</a></p>
+            </div><hr class="m-0">
+            <p class="m-0 p-2">Created with 
+                <svg class="mx-1" style="fill: #e34c26;" xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+                <svg class="me-1" style="fill: #264de4;" xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>
+                <!--svg class="me-1" style="fill: #efd81d;" xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><!--path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/></svg-->
+                <svg class="me-1" style="fill: #7710f1;" xmlns="http://www.w3.org/2000/svg" height="1.7em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z"/></svg>
+            </p>
         </footer>
 
         <script src="script.js"></script>
