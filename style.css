@@ -19,3 +19,26 @@ section#about li{
     background-size: 100% 100%;
     background-position: center;
 }
+
+.loader {
+    position: relative;
+}
+.loader span {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: animate 3.5s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+    padding-right: 3px;
+}
+@keyframes animate {
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-50px);
+    }
+}
