@@ -4,6 +4,13 @@
 
 - I'm new to web developing.
 - 🌱 I’m currently learning **HTML & CSS.**
+<br>
+<p align=center>
+  <a href="https://omelove.github.io/Omelove/"><img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+  <a href="https://github.com/Omelove"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+<br><br>
 
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api?username=omelove&show_icons=true&locale=en" alt="GitHub Stats"/></p>
 
