@@ -1,3 +1,7 @@
+::selection{
+    background-color: #4f4f4f;
+    color: #fff;
+}
 section#intro{
     min-height: 100vh;
     background: rgb(34,193,195);
@@ -10,6 +14,10 @@ section#about{
 }
 section#about li{
     font-size: 22px;
+}
+section#about li span{
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .slider{
